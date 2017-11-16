@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; }
+ul{ list-style: none; }
+img, a img{ border: 0; vertical-align: bottom; }
+.cl { zoom: 1; }
+.cl:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+
+body{
+	background-color: #eee;
+	height: 100%;
+}
+/*主色调开始*/
+.main_color{
+	color: #2db255 !important;
+}
+.vux-header .vux-header-left a{
+	color: #2db255 !important;
+	font-size: 16px;
+}
+.vux-header .vux-header-left .left-arrow:before{
+	border-color: #2db255 !important;
+}
+/*主色调结束*/
+
+/*头部*/
+.vux-header{
+	background-color: #fafafa;
+	padding: 2px 0;
+	border-bottom: 1px solid #dbdbdb;
+}
+.vux-header h1{
+	color: #000 !important;
+}
+.vux-header .vux-header-left{
+	left: 14px;
+	top: 13px;
+}
